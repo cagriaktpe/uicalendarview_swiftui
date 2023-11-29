@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81AFD6DC2B1773A6002FCFF0 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AFD6DB2B1773A6002FCFF0 /* CalendarView.swift */; };
 		BB0D6D4F286D28D700C72C50 /* EventsCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */; };
 		BB9F3A4F286C033D00664628 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F3A4E286C033D00664628 /* Date+Extension.swift */; };
 		BB9F3A52286C0C0F00664628 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F3A51286C0C0F00664628 /* Event.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81AFD6DB2B1773A6002FCFF0 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCalendarView.swift; sourceTree = "<group>"; };
 		BB9F3A4E286C033D00664628 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		BB9F3A51286C0C0F00664628 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */,
+				81AFD6DB2B1773A6002FCFF0 /* CalendarView.swift */,
 			);
 			path = CalendarViewTab;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				BBEAB8E6286CF82E00BF4A75 /* ListViewRow.swift in Sources */,
 				BB9F3A52286C0C0F00664628 /* Event.swift in Sources */,
+				81AFD6DC2B1773A6002FCFF0 /* CalendarView.swift in Sources */,
 				BB0D6D4F286D28D700C72C50 /* EventsCalendarView.swift in Sources */,
 				BBB135BE286CD59F00F3E911 /* EventsListView.swift in Sources */,
 				BBB135BC286CD37400F3E911 /* StartTabView.swift in Sources */,

@@ -10,10 +10,19 @@
 import SwiftUI
 
 struct EventsCalendarView: View {
+    @EnvironmentObject var eventStore: EventStore
+    
     var body: some View {
         NavigationStack {
-            Text("We will code this")
-                .navigationTitle("Calendar View")
+            ScrollView {
+                CalendarView(interval: DateInterval(start: .distantPast, end: .distantFuture), eventStore: eventStore)
+                Image("launchScreen")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100)
+            }
+
+            .navigationTitle("Calendar View")
         }
     }
 }
@@ -21,5 +30,6 @@ struct EventsCalendarView: View {
 struct EventsCalendarView_Previews: PreviewProvider {
     static var previews: some View {
         EventsCalendarView()
+            .environmentObject(EventStore(preview: true))
     }
 }
