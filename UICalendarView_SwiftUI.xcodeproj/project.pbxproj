@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8154673E2B1B0BE200036070 /* DaysEventListViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154673D2B1B0BE200036070 /* DaysEventListViewView.swift */; };
 		81AFD6DC2B1773A6002FCFF0 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AFD6DB2B1773A6002FCFF0 /* CalendarView.swift */; };
 		BB0D6D4F286D28D700C72C50 /* EventsCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */; };
 		BB9F3A4F286C033D00664628 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F3A4E286C033D00664628 /* Date+Extension.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8154673D2B1B0BE200036070 /* DaysEventListViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysEventListViewView.swift; sourceTree = "<group>"; };
 		81AFD6DB2B1773A6002FCFF0 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCalendarView.swift; sourceTree = "<group>"; };
 		BB9F3A4E286C033D00664628 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				BB0D6D4E286D28D700C72C50 /* EventsCalendarView.swift */,
 				81AFD6DB2B1773A6002FCFF0 /* CalendarView.swift */,
+				8154673D2B1B0BE200036070 /* DaysEventListViewView.swift */,
 			);
 			path = CalendarViewTab;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				BBEAB8E0286CEBD400BF4A75 /* EventFormViewModel.swift in Sources */,
 				BBB135B8286CB64E00F3E911 /* EventFormView.swift in Sources */,
 				BBEAB8E2286CEC8800BF4A75 /* EventFormType.swift in Sources */,
+				8154673E2B1B0BE200036070 /* DaysEventListViewView.swift in Sources */,
 				BBCDC18B286B9A7E002FE328 /* AppEntry.swift in Sources */,
 				BB9F3A4F286C033D00664628 /* Date+Extension.swift in Sources */,
 				BBCDC19A286B9AC7002FE328 /* EventStore.swift in Sources */,
